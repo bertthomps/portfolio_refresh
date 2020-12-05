@@ -13,7 +13,8 @@ html {
 /* Home Page Hero Image */
 
 .home-bg-img {
-  background-image: url("img/home_bg.png");
+  background-image: url("img/home_bg.png"), linear-gradient(rgba(185,185,183,0.45),rgba(185,185,183,0.45));
+  background-blend-mode: overlay;
   height: auto;
   background-size: cover;
   background-position: 50% 50%;

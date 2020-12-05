@@ -27,18 +27,36 @@ h1 {
   font-weight: 500;
   font-size: 42px;
   color: hsl(342, 60%, 37%);
+  margin-bottom: 1000px;
 }
 
 p {
   font-family: 'Raleway', 'Helvetica', sans-serif;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.44em;
   color: hsl(60, 1%, 30%);
 }
 
 strong {
   font-weight: 700;
+}
+
+/* Home Page Layout */
+
+.home-content-container {
+  border: 1px black solid;
+  height: 100vh;
+  padding: 40px 50% 60px 60px;
+}
+
+.home-content-text-container {
+  border: 1px black solid;
+  top: 50%;
+}
+
+.home-content-container h1 {
+  margin-bottom: 1.75em;
 }
 
 /* Home Page Link Styling */

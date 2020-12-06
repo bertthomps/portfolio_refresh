@@ -5,6 +5,11 @@
 
 /* General Styles */
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body,
 html {
   height: 100%;
@@ -46,8 +51,9 @@ strong {
 
 .home-content-container {
   border: 1px black solid;
-  height: 100vh;
+  height: 100%;
   padding: 40px 50% 60px 60px;
+  margin: 0px;
 }
 
 .home-content-text-container {

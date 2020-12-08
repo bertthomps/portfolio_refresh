@@ -1,6 +1,6 @@
 /* Typography Import */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
 
 
 /* General Styles */
@@ -38,6 +38,8 @@ h1 {
   margin-bottom: 1000px;
 }
 
+
+
 .home-content-text-container p {
   font-weight: 400;
   font-size: 26px;
@@ -50,15 +52,45 @@ h1 {
 }
 
 .case-study-content-container h2 {
+  font-size: 28px;
+  color: #4c4c4b;
+  font-weight: 300;
+  margin-bottom: 0.75em;
+}
 
+.case-study-tagline {
+  border: 1px solid red;
+  text-align: center;
+  margin-top: 1.75em;
+  margin-bottom: 1.75em;
 }
 
 .case-study-content-container h3 {
-
+  font-size: 18px;
+  color: #972648;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.75em;
 }
 
-.case-study-content-container p {
+.case-study-content-container p,
+.case-study-content-container em,
+.case-study-content-container ol,
+.case-study-content-container ul {
+  font-size: 20px;
+  font-weight: 300;
+  color: #4c4c4b;
+  line-height: 1.625em;
+  margin-bottom: 1.625em;
+}
 
+.case-study-content-container em,
+.case-study-section {
+  font-style: italic;
+}
+
+.case-study-section {
+  margin-top: 4vw;
 }
 
 /* Home Page Layout */
@@ -98,7 +130,6 @@ h1 {
 
 .case-study-content-container {
   position: relative;
-  border: 1px solid red;
   margin: 13vh 24vw 26vh 24vw;
 }
 
@@ -110,6 +141,7 @@ h1 {
 
 .image {
   width: 100%;
+  padding: 0.9em 0;
 }
 
 .case-study-bt-logo {
@@ -119,7 +151,6 @@ h1 {
 }
 
 .case-study-project-logo {
-  border: 1px solid red;
   width: 50%;
   display: block;
   margin-left: auto;

@@ -51,19 +51,22 @@ strong {
 /* Home Page Layout */
 
 .home-content-container {
+  position: relative;
+  border: 1px solid red;
   height: 100%;
-  border: 1px red solid;
-  padding: 40px 50% 60px 60px;
-  margin: 0px;
+  padding: 40px 0% 60px 60px;
+  margin-right: 50%;
 }
 
 .home-content-text-container {
-  border: 1px black solid;
+  border: 1px solid black;
+  position: absolute;
   top: 50%;
+  transform: translateY(-50%);
 }
 
 .home-content-container h1 {
-  margin-bottom: 1.75em;
+  margin-bottom: 2em;
 }
 
 /* Home Page Link Styling */

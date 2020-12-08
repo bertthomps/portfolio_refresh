@@ -21,7 +21,7 @@ body {
 /* Home Page Hero Image */
 
 .home-bg-img {
-  background-image: url("img/home_bg.png"), linear-gradient(rgba(185,185,183,0.45),rgba(185,185,183,0.45));
+  background-image: url("img/home/home_bg.png"), linear-gradient(rgba(185,185,183,0.45),rgba(185,185,183,0.45));
   background-blend-mode: overlay;
   height: 100%;
   background-size: cover;

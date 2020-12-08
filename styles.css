@@ -10,7 +10,7 @@
 }
 
 html,
-body {
+.home-bg-img {
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -83,8 +83,24 @@ h1 {
   transition: border-color 170ms ease-in-out;
 }
 
-/* BT Logo */
+/* Case Study Layout */
 
-#bt-logo {
+.case-study-content-container {
+  position: relative;
+  border: 1px solid red;
+  margin: 14vh 24vw 24vh 24vw;
+}
+
+/* Images */
+
+.bt-logo {
   height: 48px;
+}
+
+
+
+.case-study-logo {
+  border: 1px solid red;
+  margin-left: 60px;
+  margin-top: 40px;
 }

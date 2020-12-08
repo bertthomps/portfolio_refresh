@@ -6,13 +6,16 @@
 /* General Styles */
 
 * {
-  padding: 0;
-  margin: 0;
+  box-sizing: border-box;
 }
 
-body,
-html {
-  height: 100%;
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  padding: 0;
+  margin: 0;
 }
 
 /* Home Page Hero Image */
@@ -20,7 +23,7 @@ html {
 .home-bg-img {
   background-image: url("img/home_bg.png"), linear-gradient(rgba(185,185,183,0.45),rgba(185,185,183,0.45));
   background-blend-mode: overlay;
-  height: auto;
+  height: 100%;
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -30,7 +33,7 @@ html {
 h1 {
   font-family: 'Raleway', 'Helvetica', sans-serif;
   font-weight: 500;
-  font-size: 42px;
+  font-size: 44px;
   color: hsl(342, 60%, 37%);
   margin-bottom: 1000px;
 }
@@ -38,7 +41,7 @@ h1 {
 p {
   font-family: 'Raleway', 'Helvetica', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1.44em;
   color: hsl(60, 1%, 30%);
 }
@@ -50,19 +53,22 @@ strong {
 /* Home Page Layout */
 
 .home-content-container {
-  border: 1px black solid;
+  position: relative;
+  border: 0px solid red;
   height: 100%;
-  padding: 40px 50% 60px 60px;
-  margin: 0px;
+  padding: 40px 0% 60px 60px;
+  margin-right: 50%;
 }
 
 .home-content-text-container {
-  border: 1px black solid;
+  border: 0px solid black;
+  position: absolute;
   top: 50%;
+  transform: translateY(-60%);
 }
 
 .home-content-container h1 {
-  margin-bottom: 1.75em;
+  margin-bottom: 2em;
 }
 
 /* Home Page Link Styling */

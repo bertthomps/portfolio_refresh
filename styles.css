@@ -34,19 +34,19 @@ h1 {
   font-family: 'Raleway', 'Helvetica', sans-serif;
   font-weight: 500;
   font-size: 44px;
-  color: hsl(342, 60%, 37%);
+  color: #972648;
   margin-bottom: 1000px;
 }
 
-p {
+.home-content-text-container p {
   font-family: 'Raleway', 'Helvetica', sans-serif;
   font-weight: 400;
   font-size: 26px;
   line-height: 1.44em;
-  color: hsl(60, 1%, 30%);
+  color: #4d4d4c;
 }
 
-strong {
+.home-content-text-container strong {
   font-weight: 700;
 }
 
@@ -74,7 +74,7 @@ strong {
 /* Home Page Link Styling */
 
 .home-content-container a {
-  color: hsl(60, 1%, 30%);
+  color: #4d4d4c;
   text-decoration-line: none;
   padding-bottom: 2px;
   border-bottom: solid 1px rgba(76,76,75,.2);

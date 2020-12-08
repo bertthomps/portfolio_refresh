@@ -31,7 +31,7 @@ body {
 h1 {
   font-family: 'Raleway', 'Helvetica', sans-serif;
   font-weight: 500;
-  font-size: 42px;
+  font-size: 44px;
   color: hsl(342, 60%, 37%);
   margin-bottom: 1000px;
 }
@@ -39,7 +39,7 @@ h1 {
 p {
   font-family: 'Raleway', 'Helvetica', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1.44em;
   color: hsl(60, 1%, 30%);
 }
@@ -52,17 +52,17 @@ strong {
 
 .home-content-container {
   position: relative;
-  border: 1px solid red;
+  border: 0px solid red;
   height: 100%;
   padding: 40px 0% 60px 60px;
   margin-right: 50%;
 }
 
 .home-content-text-container {
-  border: 1px solid black;
+  border: 0px solid black;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-60%);
 }
 
 .home-content-container h1 {

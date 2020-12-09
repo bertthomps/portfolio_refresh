@@ -53,6 +53,18 @@ html,
 .case-study-content-container {
   position: relative;
   margin: 13vh 24vw 26vh 24vw;
+  width: inherit;
+}
+
+.quotes {
+  border-left: 5px solid hsla(342, 60%, 37%, 0.75);
+  background-color: hsla(342, 60%, 37%, 0.05);
+  padding: 12px 15px 15px 15px;
+  margin: 0 5%;
+}
+
+footer {
+  margin-top: 5em;
 }
 
 /* Typography */
@@ -118,7 +130,7 @@ q {
 }
 
 q {
-  padding: 0
+  font-style: italic;
 }
 
 /* Home Page Link Styling */
@@ -164,4 +176,24 @@ iframe {
 
 iframe {
   /* Overflow hidden on mobile */
+}
+
+/* Buttons */
+
+.more-work-btn {
+  font-size: 18px;
+  font-weight: 400;
+  color: #982649;
+  text-decoration-line: none;
+  border: 2px solid #982649;
+  border-radius: 3px;
+  padding: 1em 2em;
+  display: table;
+  margin: 0 auto;
+}
+
+.more-work-btn:hover {
+  color: #FFFFFF;
+  background: #982649;
+  transition-delay: 25ms;
 }

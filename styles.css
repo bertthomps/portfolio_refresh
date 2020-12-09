@@ -12,6 +12,10 @@
   padding: 0;
 }
 
+body {
+  border-top: 1px solid white;
+}
+
 html,
 .home-bg-img {
   height: 100vh;
@@ -54,7 +58,7 @@ html,
 
 .case-study-content-container {
   position: relative;
-  margin: 13vh 24vw 26vh 24vw;
+  margin: 24vh 24vw 26vh 24vw;
   width: inherit;
 }
 
@@ -182,8 +186,9 @@ q {
 }
 
 .case-study-bt-logo {
+  position: fixed;
   margin-left: 60px;
-  margin-top: 40px;
+  margin-top: 39px;
 }
 
 .case-study-project-logo,

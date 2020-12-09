@@ -56,9 +56,18 @@ html,
 
 /* Case Study Layout */
 
+nav {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: flex-end;
+}
+
 .case-study-content-container {
   position: relative;
-  margin: 24vh 24vw 26vh 24vw;
+  margin: 18vh 24vw 26vh 24vw;
   width: inherit;
 }
 
@@ -160,6 +169,16 @@ q {
   font-style: italic;
 }
 
+.brand-name {
+  color: 4d4d4d;
+  font-weight: 700;
+  margin: 0;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  font-size: 32px;
+  font-style: italic;
+}
+
 /* Home Page Link Styling */
 
 .home-content-container a {
@@ -186,9 +205,8 @@ q {
 }
 
 .case-study-bt-logo {
-  position: fixed;
-  margin-left: 60px;
-  margin-top: 39px;
+  margin-left: 67px;
+  margin-top: 66px;
 }
 
 .case-study-project-logo,

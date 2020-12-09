@@ -30,7 +30,7 @@ html,
 .home-content-container {
   position: relative;
   height: 100%;
-  padding: 40px 0% 60px 60px;
+  padding: 66px 0% 60px 67px;
   margin-right: 50%;
 }
 
@@ -41,7 +41,7 @@ html,
 }
 
 .home-content-container h1 {
-  margin-bottom: 2em;
+  margin-bottom: 1.75em;
 }
 
 /* Home Page Hero Image */
@@ -104,7 +104,6 @@ h1 {
   font-weight: 500;
   font-size: 44px;
   color: #972648;
-  margin-bottom: 1000px;
 }
 
 .home-content-text-container p {
@@ -112,6 +111,7 @@ h1 {
   font-size: 26px;
   line-height: 1.44em;
   color: #4d4d4c;
+  margin-bottom: 1em;
 }
 
 strong {
@@ -177,6 +177,7 @@ q {
   padding-bottom: 10px;
   font-size: 32px;
   font-style: italic;
+  display: none; /* Need JS to hide when scroll */
 }
 
 /* Home Page Link Styling */

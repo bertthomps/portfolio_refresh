@@ -8,6 +8,8 @@
 * {
   box-sizing: border-box;
   font-family: 'Raleway', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 html,
@@ -72,7 +74,6 @@ html,
   flex: 1;
 }
 
-
 .quotes {
   border-left: 5px solid hsla(342, 60%, 37%, 0.75);
   background-color: hsla(342, 60%, 37%, 0.05);
@@ -104,24 +105,29 @@ strong {
   font-weight: 700;
 }
 
-.case-study-content-container h2 {
+h2 {
   font-size: 28px;
   color: #4c4c4b;
   font-weight: 300;
   margin-bottom: 0.75em;
 }
 
-.case-study-tagline {
+header h2 {
   text-align: center;
-  margin-top: 1.75em;
+  margin-top: 1.5em;
   margin-bottom: 1.75em;
 }
 
-.case-study-content-container h3 {
+.cast-study.section {
+  font-style: italic;
+}
+
+h3 {
   font-size: 18px;
   color: #972648;
   font-weight: 700;
   text-transform: uppercase;
+  margin-top: 2em;
   margin-bottom: 0.75em;
 }
 
@@ -130,11 +136,11 @@ strong {
 ol,
 ul,
 q {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 300;
   color: #4c4c4b;
   line-height: 1.625em;
-  margin-bottom: 1.625em;
+  margin-bottom: 2em;
 }
 
 .case-study-content-container em,
@@ -213,4 +219,10 @@ iframe {
   color: #FFFFFF;
   background: #982649;
   transition-delay: 25ms;
+}
+
+/* IDs */
+
+#flex-bottom {
+  margin-bottom: 0;
 }

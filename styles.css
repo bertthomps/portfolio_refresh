@@ -56,6 +56,23 @@ html,
   width: inherit;
 }
 
+/* Flexbox Column Layout */
+
+.flex-grid {
+  display: flex;
+}
+
+.left-col {
+  padding-right: 1em;
+  flex: 2;
+}
+
+.right-col {
+  padding-left: 1em;
+  flex: 1;
+}
+
+
 .quotes {
   border-left: 5px solid hsla(342, 60%, 37%, 0.75);
   background-color: hsla(342, 60%, 37%, 0.05);

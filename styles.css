@@ -134,7 +134,8 @@ h1 {
   margin-bottom: 1em;
 }
 
-strong {
+strong,
+strong a {
   font-weight: 700;
 }
 
@@ -168,12 +169,18 @@ h3 {
 .case-study-content-container em,
 ol,
 ul,
-q {
+q,
+a {
   font-size: 21px;
   font-weight: 300;
   color: #4c4c4b;
   line-height: 1.625em;
   margin-bottom: 1.625em;
+}
+
+a {
+  text-decoration-line: none;
+  color: #972648;
 }
 
 .case-study-content-container ol,

@@ -68,6 +68,7 @@ nav {
 .case-study-content-container {
   position: relative;
   margin: 18vh 24vw 18vh 24vw;
+  padding-bottom: 18vh;
   width: inherit;
 }
 

@@ -167,10 +167,10 @@ h3 {
 
 .case-study-content-container p,
 .case-study-content-container em,
+.case-study-content-container a,
 ol,
 ul,
-q,
-a {
+q, {
   font-size: 21px;
   font-weight: 300;
   color: #4c4c4b;
@@ -210,7 +210,7 @@ q {
   padding-bottom: 10px;
   font-size: 32px;
   font-style: italic;
-  display: none; /* Need JS to hide when scroll */
+  display; /* Need JS to hide when scroll */
 }
 
 /* Home Page Link Styling */

@@ -67,7 +67,7 @@ nav {
 
 .case-study-content-container {
   position: relative;
-  margin: 18vh 24vw 26vh 24vw;
+  margin: 18vh 24vw 18vh 24vw;
   width: inherit;
 }
 
@@ -79,7 +79,7 @@ nav {
 
 .left-col {
   padding-right: 1em;
-  flex: 2;
+  flex: 2.5;
 }
 
 .right-col {
@@ -92,6 +92,7 @@ nav {
   background-color: hsla(342, 60%, 37%, 0.05);
   padding: 12px 15px 15px 15px;
   margin: 0 5%;
+  margin-bottom: 2.15em;
 }
 
 footer {
@@ -153,7 +154,12 @@ q {
   font-weight: 300;
   color: #4c4c4b;
   line-height: 1.625em;
-  margin-bottom: 2em;
+  margin-bottom: 1.625em;
+}
+
+.case-study-content-container ol,
+.case-study-content-container ul {
+  padding-left: 2em;
 }
 
 .case-study-content-container em,
@@ -201,8 +207,10 @@ q {
 }
 
 .image {
-  width: 100%;
-  padding: 0.9em 0;
+  display: block;
+  max-width: 100%;
+  max-height: 700px;
+  margin: 1.8em auto;
 }
 
 .case-study-bt-logo {
@@ -250,4 +258,8 @@ iframe {
 
 #flex-bottom {
   margin-bottom: 0;
+}
+
+#overview-padding {
+  margin-bottom: 1.5em;
 }

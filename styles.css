@@ -68,7 +68,7 @@ nav {
 .case-study-content-container {
   position: relative;
   margin: 18vh 24vw 18vh 24vw;
-  padding-bottom: 18vh;
+  padding-bottom: 18vh; /* hack to fix bottom margin not working */
   width: inherit;
 }
 
@@ -179,6 +179,7 @@ q {
 .case-study-content-container ol,
 .case-study-content-container ul {
   padding-left: 2em;
+  line-height: 2em;
 }
 
 .case-study-content-container em,
@@ -237,8 +238,7 @@ q {
   margin-top: 66px;
 }
 
-.case-study-project-logo,
-iframe {
+.case-study-project-logo {
   max-width: 45%;
   display: block;
   margin-left: auto;
@@ -250,7 +250,9 @@ iframe {
 }
 
 iframe {
-  /* Overflow hidden on mobile */
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Buttons */

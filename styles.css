@@ -71,6 +71,17 @@ nav {
   width: inherit;
 }
 
+.quotes {
+  border-left: 5px solid hsla(342, 60%, 37%, 0.75);
+  background-color: hsla(342, 60%, 37%, 0.05);
+  padding: 12px 15px 15px 15px;
+  margin: 0 5%;
+  margin-bottom: 2.15em;
+}
+
+footer {
+  margin-top: 5em;
+}
 /* Flexbox Column Layout */
 
 .flex-grid {
@@ -87,16 +98,23 @@ nav {
   flex: 1;
 }
 
-.quotes {
-  border-left: 5px solid hsla(342, 60%, 37%, 0.75);
-  background-color: hsla(342, 60%, 37%, 0.05);
-  padding: 12px 15px 15px 15px;
-  margin: 0 5%;
-  margin-bottom: 2.15em;
+/* Persona Image Grid Layout */
+
+.persona-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-footer {
-  margin-top: 5em;
+.persona-grid img {
+  margin-top: 0 !important;
+}
+
+.persona-left {
+  padding-right: 0.9em;
+}
+
+.persona-right {
+  padding-left: 0.9em;
 }
 
 /* Typography */

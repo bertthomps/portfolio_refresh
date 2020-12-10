@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../styles.css">
-    <title>Nextdoor Case Study</title>
+    <title>Medium Case Study</title>
   </head>
   <body>
 
@@ -20,15 +20,16 @@
 
       <!-- Case Study Banner -->
       <header>
-        <img src="../img/design_overview/nextdoor_logo.png" alt="Nextdoor Logo" class="case-study-project-logo">
-        <h2>Bringing communities together through local talks</h2>
-        <em>Disclaimer: This project was completed thorough the General Assembly UX Design Immersive Bootcamp. Nextdoor was not affiliated with this project.</em>
+        <img src="../img/design_overview/medium_logo.png" alt="Medium Logo" class="case-study-project-logo">
+        <h2>A deep dive into the usability of sharing articles</h2>
+        <em>Disclaimer: This project was completed thorough the General Assembly UX Design Immersive Bootcamp. Medium was not affiliated with this project.</em>
       </header>
 
       <!-- Preface Section -->
       <section>
         <h3>Preface</h3>
-        <p>Nextdoor is a private social network that seeks to build stronger and safer neighborhood communities. Nextdoor currently has functionality for events, but has received interest from local speakers to give talks at community members’ homes.</p>
+        <p>Medium is one of my favorite platforms on which to read and write. I use it to learn from my peers, save and share inspiring content, and document my design work.</p>
+        <p>Over a couple of days, I set out to discover if Medium could be even better by doing usability tests on one of the platform’s core functionality.</p>
       </section>
 
       <!-- Overview Section -->
@@ -36,13 +37,12 @@
         <h3 id="overview-padding">Overview</h3>
         <div class="flex-grid">
           <div class="left-col">
-            <p><strong>Challenge</strong>: Community members want to connect with their neighbors and people with similar interests, but don’t have a safe or easy way of doing so. Nextdoor has a list of speakers that want to give talks, but doesn’t have a direct way to bring guests and speakers together.</p>
-            <p id="flex-bottom"><strong>Solution</strong>: Create a safe and inviting platform for community members to host and attend community events at peoples’ homes featuring local speakers.</p>
+            <p><strong>Challenge</strong>: The Medium community actively engages with articles, but can only share on external platforms. How can users’ experience interacting with stories be increased, while increasing Medium’s total time reading metric?</p>
+            <p id="flex-bottom"><strong>Solution</strong>: Create an in-app sharing workflow for users to recommend articles to their friends and followers. Medium users can now further their engagement within the platform.</p>
           </div>
           <div class="right-col">
             <p><strong>Platform</strong>: iOS</p>
-            <p><strong>Time</strong>: 2 weeks</p>
-            <p><strong>Team</strong>: 4 members</p>
+            <p><strong>Time</strong>: 3 days</p>
           </div>
         </div>
 
@@ -51,155 +51,131 @@
       <!-- Deliverables Section -->
       <section>
         <h3>Deliverables</h3>
-        <img src="../img/case_studies/nextdoor/hero_image_1.png" alt="Key Feature: Explore Events" class="image">
-        <img src="../img/case_studies/nextdoor/hero_image_2.png" alt="Key Feature: Learn Event Details" class="image">
-        <img src="../img/case_studies/nextdoor/hero_image_3.png" alt="Key Feature: Receive Event Details" class="image">
+        <img src="../img/case_studies/medium/hero_image_1.png" alt="Key Feature: Get Notified" class="image">
+        <img src="../img/case_studies/medium/hero_image_2.png" alt="Key Feature: Share Easily" class="image">
+        <img src="../img/case_studies/medium/hero_image_3.png" alt="Key Feature Detail: Share Easily" class="image">
       </section>
 
       <!-- Case Study Start -->
       <h2 class="case-study-section">Case Study</h2>
 
-      <!-- Design Process Section -->
+      <!-- Context Section -->
       <section>
-        <h3>Design Process</h3>
-        <img src="../img/case_studies/nextdoor/design_process.png" alt="Project Design Process" class="image">
+        <h3>Context</h3>
+        <p>Reading on Medium is not a passive experience. Its users actively engage with articles by highlighting and responding, all of which is shared with the community in an always-evolving conversation.</p>
+        <p>While some of Medium’s users want to write and others want to read, the core activity that connects all users is <a href="https://medium.com/data-lab/mediums-metric-that-matters-total-time-reading-86c4970837d5#.hjf7vqxo9">reading</a>.</p>
+        <p>Some websites measure their success by page views. Others look at daily active users. At Medium, Total Time Reading, or TTR, is the most important metric.</p>
+        <p>Given this, the scope of the usability test will focus on user engagement while reading articles.</p>
+        <p>If a solution could increase user engagement, TTR should increase as well.</p>
       </section>
 
-      <!-- Empathy Mapping Section -->
+      <!-- Persona Section -->
       <section>
-        <h3>Empathy Mapping</h3>
-        <p>Before we did user research, we talked with Nextdoor to find out more about its perception of its core users. We put our findings into an empathy map to visualize trends and begin to form testable hypotheses.</p>
-        <em>(Nextdoor assumed that its core users were hosts, speakers and guests.)</em>
-        <img src="../img/case_studies/nextdoor/empathy_map.png" alt="Project Empathy Map" class="image">
-        <p>From the empathy map, we came up with these main hypotheses:</p>
+        <h3>Russell, The Target User</h3>
+        <p>While I do not have access to the demographic information of Medium’s primary users, I was able to learn about their values, behaviors and needs.</p>
+        <p>I portrayed this information by creating Russell, a persona that represents Medium’s generalized users. This will help me empathize with the users to identify their pain points and find a meaningful solution.</p>
+        <img src="../img/case_studies/medium/persona.png" alt="Project Persona" class="image">
+        <p>Based on Russell’s behaviors and needs, I came up with some questions to gauge his experience using the app:</p>
         <ol>
-          <li>People want the opportunity to get more involved in their communities</li>
-          <li>There will be more people willing to be guests than hosts or speakers</li>
-          <li>Socializing will be a large motivation for people to attend</li>
-          <li>Guests will be concerned most about the topic presented, hosts will be concerned most about privacy and safety, and speakers will be concerned most about compensation</li>
+          <li>Is Russell able to easily interact with stories by highlighting and responding?</li>
+          <li>How can he share his favorite articles with his followers on Medium?</li>
         </ol>
       </section>
 
-      <!-- User Research Section -->
+      <!-- Usability Tasks Section -->
       <section>
-        <h3>User Research</h3>
-        <p>With our hypotheses formed, we reached out to current and potential Nextdoor users to get the users’ points of view.</p>
-        <p>We sent out online surveys to our current Nextdoor networks as well as other contacts we thought might have insights, and went out to various community centers in San Francisco to get in-field research.</p>
-        <p>Here are some of the main questions we asked:</p>
-        <ul>
-          <li>Who do you want to connect with in your community?</li>
-          <li>Why would you want to go to events in your community?</li>
-          <li>How interested would you be in attending a talk in a community member’s home, hosting a talk in your room, or giving a talk?</li>
-        </ul>
-        <p>We ended up receiving 60 responses on the survey and talked to 8 people in-person. The survey results gave us great quantitative information while the in-person interviews gave us more context and qualitative depth into users’ core pain points and needs.</p>
-        <img src="../img/case_studies/nextdoor/usability_results.png" alt="Usability Results Graph" class="image">
-        <p>The results showed that while only 50% of respondents were actively involved in their community, 83% were interested in attending events to get more involved. This validates the demand for more community involvement through events.</p>
-        <p>57% of users reported accessing Nextdoor through their mobile app (41% iOS, 16% Android).</p>
-        <p>While people were most interested in being guests, which was our initial hypothesis, we were surprised that so many people were willing to be speakers or hosts. This helped solidify them as distinct user types to design for.</p>
-      </section>
-
-      <!-- Personas Section -->
-      <section>
-        <h3>Personas</h3>
-        <p>From the research, I worked with my team to develop three personas, which personify the generalized users, so that we can relate to and empathize towards throughout the design process.</p>
-        <!-- Persona Image Grid Layout -->
-
-        <div class="persona-1">
-          <img src="../img/case_studies/nextdoor/persona_1.png" alt="Persona of Malvin (Guest)" class="image">
-        </div>
-        <div class="persona-grid">
-          <div class="persona-left">
-            <img src="../img/case_studies/nextdoor/persona_2.png" alt="Persona of Mary (Speaker)" class="image">
-          </div>
-          <div class="persona-right">
-            <img src="../img/case_studies/nextdoor/persona_3.png" alt="Persona of Judy (Host)" class="image">
-          </div>
-        </div>
-        <!-- Persona Section Content -->
-        <p>Judy, Malvin and Mary have five common needs:</p>
+        <h3>Tasks to Complete</h3>
+        <p>Test participants were asked to embody Russell’s persona as they attempted the following tasks:</p>
         <ol>
-          <li>feel <strong>safe and secure</strong> while participating in events</li>
-          <li>easily <strong>discover events</strong> they want to participate in</li>
-          <li>know <strong>logistical information</strong> in advance</li>
-          <li>learn information about <strong>who is attending</strong></li>
-          <li>find <strong>detailed information</strong> about the event and topic</li>
-        </ol>
-        <p>For the scope of the project, we identified Malvin, the guest, as the primary persona since the majority of users said they would prefer to be guests. We also made the assumption that hosts and speakers would be willing to be guests as well, but guests wouldn’t necessarily want to be hosts or speakers.</p>
-      </section>
-
-      <!-- Competitive Analysis Section -->
-      <section>
-        <h3>Competitive Analysis</h3>
-        <p>Speaker Series’ main competition is event management sites where users can participate in posted events. Based on Judy, Malvin and Mary’s key needs, I did a competitive analysis to see how the competition meets their needs.</p>
-        <img src="../img/case_studies/nextdoor/competitive_analysis.png" alt="Nextdoor Competitive Analysis" class="image">
-        <p>Speaker Series has the opportunity to improve on the competition by:</p>
-        <ol>
-          <li>Detailing amenities and accommodations</li>
-          <li>Providing neighborhood-specific information, including safety and parking</li>
-          <li>Showing users which of their friends or close-proximity neighbors are going</li>
+          <li>Mark a section that you find important</li>
+          <li>Comment on a different section that you want to discuss</li>
+          <li>Respond to another reader’s comment</li>
+          <li>Send the article to someone on Medium</li>
         </ol>
       </section>
 
-      <!-- Feature Prioritization Section -->
+      <!-- Usability Test Results Section -->
       <section>
-        <h3>Feature Prioritization</h3>
-        <p>With the large amount of features and functionality my team and I brainstormed, it was hard to tell the tradeoffs of positively impacting the users the most vs. being cost-efficient to design and engineer.</p>
-        <p>We felt that the best way to tackle this problem would be through a feature prioritization matrix, which would give us a roadmap to move forward.</p>
-        <img src="../img/case_studies/nextdoor/feature_prioritization.png" alt="Project Feature Prioritization" class="image">
-        <p>By breaking down the features into MVP and Post-MVP scope, we were able to dive deeper into the most impactful features for the users given our limited timeline.</p>
+        <h3>Usability Test Results</h3>
+        <p>I ordered the user feedback into distinct categories and then sorted by response frequency.</p>
+        <img src="../img/case_studies/medium/usability_results.png" alt="Usability Test Results" class="image">
+        <p>While users didn’t initially think to tap on a response to make the comment bubble appear, they often figured it out after trying out different ways of responding.</p>
+        <p><strong>The most intriguing, and arguably more meaningful, observation was that users were particularly surprised when they couldn’t find a way to directly share articles with their friends and followers on Medium.</strong></p>
+        <p>They enjoyed the functionality of discussing articles with other readers who had already commented, but were frustrated that they couldn’t reach out to other people who weren’t already involved in the discussion.</p>
+        <p>As a workaround, users tapped the share button and used texting and Facebook to share, but the experience felt disjointed.</p>
+        <p>Because of this, I decided to focus the scope of the solution on creating a way for users to share internally.</p>
       </section>
 
-      <!-- User Flows Section -->
+      <!-- How Users Currently Share Section -->
       <section>
-        <h3>User Flow</h3>
-        <p>Given the scope of the project, we decided to focus on designing a solution for Malvin, the guest, our primary user.</p>
-        <p>I created user flows for Malvin to see how he would optimally view and attend speaking engagements, and to see how the new platform would fit within the existing site.</p>
-        <img src="../img/case_studies/nextdoor/user_flow.png" alt="Malvin's User Flow" class="image">
-        <p>His happy path occurs when he is invited to attend a speaking engagement. This is under two assumptions:</p>
+        <p>What I set out to understand:</p>
+        <p><em>Why does Medium have external sharing capabilities, but no option to share internally?</em></p>
+        <p>I focused on how users currently share externally to learn about their motivations and determine why Medium would present the option in the first place.</p>
+        <p>On Medium’s desktop site, there are Facebook and Twitter sharing links on the static bottom bar. These links share the same real estate as recommending, responding and bookmarking — the core reading engagement features of the platform.</p>
+        <p>Two questions came to mind here:</p>
         <ol>
-          <li>The invitation will likely make him feel included which will make him feel more comfortable attending</li>
-          <li>People usually invite other people they already know, so Malvin will likely know the person that invited him, which solves one of his core needs</li>
+          <li>On the desktop, why do external sharing links have the same functional hierarchy as the core engagement features?</li>
+          <li>Conversely, on the app, these same links are buried under the share button. Why is this if users share posts externally twice as much on the Medium app than on desktop?</li>
         </ol>
+        <p>Note: It makes sense that the links are buried in the share menu since there is much less bottom bar real estate on the app than on desktop. This is also a standard iOS sharing convention.</p>
+        <p>By observation, Medium places importance on external sharing, at least on desktop. But why, if Medium is not a social network?</p>
+        <p>The answer can be found on Medium’s vision statement.</p>
       </section>
 
-      <!-- Wireframes Section -->
+      <!-- Role of Sharing on Medium Section -->
       <section>
-        <h3>Wireframes</h3>
-        <p>The majority of users reported using the Nextdoor mobile app on iOS so we designed the solution for this platform.</p>
-        <p>I started with pen and paper sketches to rapidly ideate different solutions without spending a lot of time on one solution that might not be what the users really need.</p>
-        <img src="../img/case_studies/nextdoor/wireframe.jpg" alt="Initial Wireframe" class="image">
-        <p>This agile approach let me do usability testing early on to more fully address the users’ pain points and needs.</p>
-      </section>
-
-      <!-- Usability Testing Section -->
-      <section>
-        <h3>Usability Testing</h3>
-        <p>Users had some feedback on the main page:</p>
+        <h3>The Role of Sharing on Medium</h3>
+        <p>Ev Williams, founder of Medium, <a href="https://about.medium.com/">writes</a>:</p>
         <div class="quotes">
-          <q>I like how easy it is to scroll through the top categories to find events I’m interested in.</q><br><br>
-          <q>The large images make me want to find out more details.</q><br><br>
-          <q>The date and time is great information to know, but I also wonder how many people are going.</q>
+          <q>More than a network of thinkers, though, Medium is a network of thought. Connecting people together increases their knowledge and capabilities. Connecting ideas together increases their value, as well.</q>
         </div>
-        <p>Though users found the top categories useful since it met a core need of event discovery, I realized that this feature was not in the scope of the MVP. Because of this, I took it out in the next iteration to re-focus on the MVP scope.</p>
-        <p>Bringing the wireframes into Sketch allowed users to get a much accurate and detailed representation of how they would actually use the platform.</p>
+        <p>While Medium’s identity and value come from ideas more than the thinkers who write them, the two are inherently linked.</p>
+        <p>The more people read and respond to articles, the more their diversity of opinion advances the conversation — a positive feedback loop of engagement.</p>
+        <p><em>This is a core value of external sharing.</em></p>
+        <p>By sharing externally, people who are not currently visiting Medium will be drawn to the site, beginning the feedback loop.</p>
+        <img src="../img/case_studies/medium/feedback_loop_1.png" alt="Current Medium Sharing Feedback Loop" class="image">
+        <p>The question then becomes:</p>
+        <p><em>What is the incentive for users to engage with articles on Medium instead of remaining on the social media platform where the article link was shared?</em></p>
+        <p>Engagement is one of the main uses of social media as well. If users found a Medium article on Facebook, the assumption is that they are more committed to Facebook as a platform of discussion than Medium (at least at the moment).</p>
+        <p>The result is that the user is more likely to start an engagement cycle on Facebook. This increases page views on Medium, but the sharing of viewpoints remains on Facebook.</p>
+        <img src="../img/case_studies/medium/feedback_loop_2.png" alt="External Medium Sharing Feedback Loop" class="image">
+        <p>So how could this cycle of engagement be brought back to Medium, evolving the original idea and also increasing TTR?</p>
       </section>
 
-      <!-- Prototype Section -->
+      <!-- External to Internal Sharing Section -->
       <section>
-        <h3>Prototype</h3>
-        <p>To get a good sense of how users would use the platform on an interaction level, I brought the wireframes into InVision.</p>
-        <p>I chose to create a prototype at this level of fidelity to really hone in on micro-interaction and content details that hadn’t been addressed in previous rounds of usability testing.</p>
-        <iframe width="438" height="930" src="https://projects.invisionapp.com/share/ARXOQR1NZ8B#/screens" frameborder="0" allowfullscreen></iframe>
+        <h3>From External to Internal Sharing</h3>
+        <p>The main problem to address:</p>
+        <p><em>How can users share articles within Medium in a way that stays true to the platform’s identity as a network of thought and not a social network?</em><p>
+        <p>The assumption is that people using the Medium app are dedicated users and are committed enough to the platform that they would want to read, engage with and share articles internally.</p>
+        <img src="../img/case_studies/medium/feedback_loop_3.png" alt="Internal Medium Sharing Feedback Loop" class="image">
+        <p>Internal sharing would then be similar to receiving article recommendations from Medium, which shortens and strengthens the positive feedback loop of engagement. How could this functionality be seamlessly incorporated for users?</p>
+      </section>
+
+      <!-- Solution Section -->
+      <section>
+        <h3>The Solution</h3>
+        <p>The solution I came up with is a way for users to invite other users to read and discuss articles within the Medium app. Invites will be received in the notifications tab.</p>
+        <p>By default, users would only share with other users who follow them, unless the intended recipient has enabled sharing invites from everyone in their settings. This maintains the default privacy settings that other types of notifications have.</p>
+        <p>I would propose users don’t have the option to add comments or descriptions to the notification when internally sharing on Medium for two reasons:</p>
+        <ol>
+          <li>This would take the emphasis away from having personal conversations and place more importance on sharing articles</li>
+          <li>To keep the experience consistent with the minimal amount of information that Medium’s in-app notifications currently have</li>
+        </ol>
+        <p>Here’s a prototype made in Flinto to see how the preliminary interaction could work:</p>
+        <iframe id="medium-prototype" src="https://player.vimeo.com/video/189859544" width="360" height="640" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </section>
 
       <!-- Next Steps Section -->
       <section>
         <h3>Next Steps</h3>
-        <p>The next steps for the Nextdoor Speaker Series platform include:</p>
-        <ol>
-          <li>Further usability testing on the prototype to refine the MVP</li>
-          <li>Depending on the design and engineering teams’ bandwidth and how well the MVP affected the company KPI’s, begin building out the post-MVP features to address the secondary user types</li>
-        </ol>
-        <p>Overall, the Speaker Series platform helps users discover events they are interested in and that will bring them together as a community. This builds on Nextdoor’s mission of building stronger and safer neighborhoods.</p>
+        <p>Here are some other ideas for internal sharing:</p>
+        <ul>
+          <li>Suggest a short list of users for the sharing interface who would most likely be interested in discussing the article</li>
+          <li>Explore options to share, and invite to discuss, specific responses within articles</li>
+          <li>Is there a way for authors to track internal sharing metrics? Do they even want to know?</li>
+        </ul>
+        <p>Adding internal sharing to Medium could potentially keep the feedback loop of user engagement more within the platform. This would strengthen the community and advance Medium’s network of thought, making the already positive user experience of sharing content even better.</p>
       </section>
 
       <!-- Footer -->

@@ -54,6 +54,91 @@ html,
   background-position: 50% 50%;
 }
 
+/* Design Layout */
+
+.design-content-container {
+  position: relative;
+  margin: 14vh 11.5vw 17vw 11.5vw;
+  padding-bottom: 17vh;
+}
+
+.design-content-container > h1,
+.design-content-container > p {
+  text-align: center;
+  margin: 0 15%;
+}
+
+.design-content-container > h1 {
+  padding-bottom: 1em;
+}
+
+.design-content-container > p {
+  padding-bottom: 1.5em;
+}
+
+.cards {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  align-items: center;
+  grid-template-areas:
+    "a b c d"
+    "e e f f";
+  grid-row-gap: 15vh;
+}
+
+
+.card1 {
+  grid-area: a;
+}
+
+.card2 {
+  padding: 34px 17px 34px 34px;
+  grid-area: b;
+}
+
+.card3 {
+  grid-area: c;
+}
+
+.card4 {
+  padding: 34px 17px 34px 34px;
+  grid-area: d;
+}
+
+.card5 {
+  grid-area: e;
+}
+
+.card6 {
+  padding: 34px 17px 34px 34px;
+  grid-area: f;
+}
+
+#medium-logo,
+#nextdoor-logo {
+  width: 185px;
+}
+
+#medium-hero,
+#nextdoor-hero {
+  width: 298px;
+}
+
+#hardware-hero {
+  float: right;
+  width: 590px;
+}
+
+#hardware-logo {
+  width: 295px;
+  padding-bottom: 34px;
+}
+
+.img-container {
+  height: 96px;
+}
+
 /* Case Study Layout */
 
 nav {
@@ -126,6 +211,10 @@ h1 {
   color: #972648;
 }
 
+.design-content-container h1 {
+  font-size: 38px;
+}
+
 .home-content-text-container p {
   font-weight: 400;
   font-size: 26px;
@@ -170,7 +259,8 @@ h3 {
 .case-study-content-container a,
 ol,
 ul,
-q, {
+q,
+.design-content-container p {
   font-size: 21px;
   font-weight: 300;
   color: #4c4c4b;
@@ -203,14 +293,14 @@ q {
 }
 
 .brand-name {
-  color: 4d4d4d;
+  color: #4d4d4d;
   font-weight: 700;
   margin: 0;
   padding-left: 15px;
   padding-bottom: 10px;
   font-size: 32px;
   font-style: italic;
-  display; /* Need JS to hide when scroll */
+  display: none; /* Need JS to hide when scroll */
 }
 
 /* Home Page Link Styling */
@@ -280,6 +370,11 @@ iframe {
   color: #FFFFFF;
   background: #982649;
   transition-delay: 25ms;
+}
+
+.cards a {
+  padding: 13px 26px;
+  margin: 0;
 }
 
 /* IDs */

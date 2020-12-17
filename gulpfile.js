@@ -53,4 +53,4 @@ function watch() {
     gulp.watch('**/*.html', reload);
 }
 
-exports.watch = watch;
+exports.default = watch;

@@ -7,6 +7,7 @@ const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 const sourcemaps = require('gulp-sourcemaps');
+const browserSync = require("browser-sync").create();
 
 // SCSS Processing
 
@@ -29,14 +30,27 @@ function style() {
       .pipe(sourcemaps.write('.'))
       // CSS Output Destination
       .pipe(gulp.dest('stylesheets/css'))
+      .pipe(browserSync.stream())
   );
 }
 
 exports.style = style;
 
-function watch(){
+function reload() {
+  browserSync.reload();
+}
+
+function watch() {
+    // Start browserSync
+    browserSync.init({
+      server: {
+        baseDir: "./"
+      }
+    });
     // Watches for all SCSS changes (but only outputs on main.scss)
-    gulp.watch('stylesheets/scss/**/*.scss', style)
+    gulp.watch('stylesheets/scss/**/*.scss', style);
+    // Reloads browserSync to update changes
+    gulp.watch('**/*.html', reload);
 }
 
 exports.watch = watch;

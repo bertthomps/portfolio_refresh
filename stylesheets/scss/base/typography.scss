@@ -3,7 +3,7 @@
 
 // Main Typography Variables
 
-$font-stack: 'Raleway', 'sans-serif';
+$font-stack: 'Raleway', 'Helvetica', 'sans-serif';
 $font-weight-regular: 400;
 $font-weight-medium: 500;
 $font-weight-bold: 700;
@@ -17,7 +17,6 @@ h1 {
     weight: $font-weight-medium;
   }
   color: $red;
-  line-height: 0;
   margin: 0 0 1.3em 0;
 }
 
@@ -25,9 +24,30 @@ h2 {
   font: {
     family: $font-stack;
     size: 28px;
-    weight: $font-weight-medium;
+    weight: $font-weight-regular;
   }
   color: $grey;
-  line-height: 0;
   margin: 0 0 2em 0;
+}
+
+h3 {
+  font: {
+    family: $font-stack;
+    size: 18px;
+    weight: $font-weight-bold;
+  }
+  color: $red;
+  margin: 0 0 1.44em 0;
+  text-transform: uppercase;
+}
+
+p {
+  font: {
+    family: $font-stack;
+    size: 20px;
+    weight: $font-weight-regular;
+  }
+  color: $grey;
+  line-height: 1.75em;
+  margin: 0 0 2.5em 0;
 }

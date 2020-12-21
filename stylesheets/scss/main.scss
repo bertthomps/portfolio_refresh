@@ -1,5 +1,10 @@
-// Import Base
-
+// Import Bases
 @import 'base/reset';
 @import 'base/colors';
 @import 'base/typography';
+
+// Import Layouts
+@import 'layout/content';
+
+// Import Components
+@import 'components/images'

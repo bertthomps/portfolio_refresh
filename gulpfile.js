@@ -36,9 +36,7 @@ function style() {
 
 exports.style = style;
 
-function reload() {
-  browserSync.reload();
-}
+const reload = browserSync.reload();
 
 function watch() {
     // Start browserSync

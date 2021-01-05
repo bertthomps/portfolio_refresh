@@ -36,7 +36,7 @@ body {
   margin: 0 calc(1*var(--unit-line-height)); // Body horizontal margins
 }
 
-// main svg,
+main svg,
 main img {
   width: 100%;
 }
@@ -80,6 +80,36 @@ body>header {
 
 a.logo {
   width: 3.13rem;
+}
+
+/* -----------------------------------------------------------------------------
+Footer
+----------------------------------------------------------------------------- */
+
+footer {
+  line-height: var(--unit-line-height);
+  display: grid;
+  grid-gap: var(--unit-line-height);
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: calc(4*var(--unit-line-height));
+  padding-bottom: var(--unit-line-height);
+}
+
+footer>div:first-child {
+  grid-column: 1 / span 2;
+}
+
+footer div.signature {
+  font-size: 0.875rem;
+}
+
+@media (min-width: 1000px) {
+  footer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  footer div.last-child {
+    grid-column-start: 3;
+  }
 }
 
 /* =============================================================================
